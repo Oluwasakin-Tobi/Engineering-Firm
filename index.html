@@ -53,14 +53,20 @@
         Theme Settings
         =============================================== -->
         <style>
-            :root {                
-                --section-1-bg-color: #ffffff;
-                --section-2-bg-color: #eef4ed;
-                --section-3-bg-color: #111117;
-                --section-4-bg-color: #ffffff;
-                --section-5-bg-color: #eef4ed;
+            :root {
+                --header-bg-color: #f9f9f9;
+                --nav-item-color: #21333e;
+                --hero-bg-color: #f9f9f9;
                 
-                --footer-bg-color: #080d10; --footer-bg-image: url('/assets/images/bg-7.jpg');
+                --section-1-bg-color: #eef4ed;
+                --section-2-bg-color: #111117;
+                --section-3-bg-color: #ffffff;
+                /* --section-4-bg-color: #111117; --section-4-bg-image: url('/assets/images/bg-7.jpg'); */
+                --section-4-bg-color: #111117; --section-4-bg-image: url('/assets/images/engine3.jpg');
+                --section-5-bg-color: #111117;
+                --section-6-bg-color: #ffffff;
+
+                --footer-bg-color: #111117;
             }
         </style>
         
@@ -97,10 +103,10 @@
                     <!-- Navbar Items [right] -->
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="#" class="nav-link"><i class="fas fa-phone-alt mr-2"></i>+1 (305) 1234-5678</a>
+                            <a href="#" class="nav-link"><i class="fas fa-phone-alt mr-2"></i>+2348101899045</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link"><i class="fas fa-envelope mr-2"></i>hello@example.com</a>
+                            <a href="#" class="nav-link"><i class="fas fa-envelope mr-2"></i>abtcoolb7@gmail.com</a>
                         </li>
                     </ul>
 
@@ -125,12 +131,12 @@
                 <div class="container header">
 
                     <!-- Navbar Brand-->
-                    <a class="navbar-brand" href="/">
+                    <a class="navbar-brand light" href="/">
                         <span class="brand">
                             <span class="featured">
-                                <span class="first">NEX</span>
+                                <span class="first">JI</span>
                             </span>
-                            <span class="last">GEN</span>
+                            <span class="last">SUN</span>
                         </span>
                         
                         <!-- 
@@ -148,16 +154,16 @@
                             <a href="#header" class="smooth-anchor nav-link">HOME</a>
                         </li>
                         <li class="nav-item">
+                            <a href="#services" class="smooth-anchor nav-link">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
                             <a href="#about" class="smooth-anchor nav-link">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#testimonials" class="smooth-anchor nav-link">TESTIMONIALS</a>
+                            <a href="#projects" class="smooth-anchor nav-link">PROJECTS</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#video" class="smooth-anchor nav-link">VIDEO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#skills" class="smooth-anchor nav-link">SKILLS</a>
+                            <a href="#funfacts" class="smooth-anchor nav-link">RESULTS</a>
                         </li>
                     </ul>
 
@@ -181,7 +187,7 @@
 
         </header>
 
-        <!-- Hero -->
+         <!-- Hero -->
         <section id="slider" class="hero p-0 odd">
             <div class="swiper-container no-slider animation slider-h-100 slider-h-auto">
                 <div class="swiper-wrapper">
@@ -190,7 +196,9 @@
                     <div class="swiper-slide slide-center">
 
                         <!-- Media -->
-                        <img src="assets/images/bg-5.jpg" alt="Full Image" class="full-image" data-mask="0">    
+                        <!-- <img src="assets/images/bg-5.jpg" alt="Full Image" class="full-image" data-mask="0"> -->   
+                        
+                        <img src="assets/images/engine3.jpg" alt="Full Image" class="full-image" data-mask="0" height="1920" width="943">  
 
                         <div class="slide-content row">
                             <div class="col-12 d-flex justify-content-start inner">
@@ -198,8 +206,8 @@
 
                                     <!-- Content -->
                                     <h1 data-aos="zoom-in" data-aos-delay="2000" class="title effect-static-text">
-                                        <span class="pre-title m-0">Jacob Hill Jr.</span>
-                                        LIFE <span class="featured"><span>COACH</span></span>
+                                        <span class="pre-title m-0">McJohnson Jr.</span>
+                                        LIFE <span class="featured"><span>ENGINEER</span></span>
                                     </h1>
                                     <p data-aos="zoom-in" data-aos-delay="2400" class="description bigger">Train your mind to see the bright side in any situation. Opportunities do not arise you create them.</p>
 
@@ -219,237 +227,355 @@
             </div>
         </section>
 
-        <!-- About -->
-        <section id="about" class="section-1 highlights team image-right">
+        <!-- Services -->
+        <section id="services" class="section-1 offers featured">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 col-lg-8 align-self-top text">
-                        <div class="row intro m-0">
-                            <div class="col-12 p-0">
-                                <span class="pre-title m-0">You more prepared</span>
-                                <h2><span class="featured"><span>Boost </span></span> Your Creativity</h2>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 p-0 pr-md-5">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis diam varius diam ultricies lacinia. <b>Mauris lacus tellus, ultrices eu volutpat sit amet, finibus a ipsum.</b> Nullam sit amet pretium felis.</p>
-                                <p>Curabitur convallis, diam a egestas iaculis, neque lorem interdum felis, in viverra lacus tortor in leo.</p>
-                                <p>Donec tristique diam id mi venenatis facilisis eget sed mi. Phasellus malesuada nulla diam, a dignissim quam congue et.</p>
-                                <p><b>Cras sem ante, accumsan quis sem sed, rutrum varius nunc.</b></p>
-                            </div>
+                <div class="row intro">
+                    <div class="col-12 col-md-9 align-self-center text-center text-md-left">
+                        <span class="pre-title m-auto ml-md-0">Our business areas</span>
+                        <h2>Excellence in <span class="featured"><span>Services</span></span></h2>
+                        <p>We are leaders in providing engineering services with a set of cutting-edge technologies and a team of experienced and renowned professionals. These are some options that you can hire.</p>
+                    </div>
+                    <div class="col-12 col-md-3 align-self-end">
+                        <a href="#" class="btn mx-auto mr-md-0 ml-md-auto primary-button">SEE ALL</a>
+                    </div>
+                </div>
+                <div class="row justify-content-center items">
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div class="card">
+                            <i class="icon icon-organization"></i>
+                            <h4>Civil Engineering</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <a href="#"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
                         </div>
                     </div>
-                    <div data-aos="zoom-in" class="col-12 col-lg-4 align-self-end">
-                        <div class="quote mt-5 mt-lg-0">
-                            <div class="quote-content">
-                                <h4>Consultant Speech</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut lacinia diam.</p>
-                                <p>Vivamus efficitur et est quis posuere. Nulla sollicitudin vulputate dui, id pretium tortor congue eu. Integer aliquet justo eu quam volutpat ullamcorper.</p>
-                                <h5>Jacob Hill Jr.</h5>
-                            </div>
-                            <i class="quote-right fas fa-quote-right"></i>
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div class="card">
+                            <i class="icon icon-briefcase"></i>
+                            <h4>Financial Engineering</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <a href="#"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div class="card">
+                            <i class="icon icon-chart"></i>
+                            <h4>Analytical Engineering</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <a href="#"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div class="card">
+                            <i class="icon icon-plane"></i>
+                            <h4>Middle Marketing</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <a href="#"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div class="card">
+                            <i class="icon icon-globe-alt"></i>
+                            <h4>Legal Consulting</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <a href="#"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div class="card">
+                            <i class="icon icon-drawer"></i>
+                            <h4>Regulatory Risk</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <a href="#"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Testimonials -->
-        <section id="testimonials" class="section-2 carousel testimonials">
+        <!-- About -->
+        <section id="about" class="section-2 odd highlights image-right featured">
+            <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 pr-md-5 align-self-center text-center text-md-left text">
+                    <div data-aos="fade-up"  class="row intro">
+                        <div class="col-12 p-0">
+                            <span class="pre-title m-auto m-md-0">About the network</span>
+                            <h2><span class="featured"><span>The</span></span> Company</h2>
+                            <p>For 12 years we have been providing audit and warranty, financial advice, risk advice, taxes and related services to select clients.</p>
+                        </div>
+                    </div>
+                    <div class="row items">                             
+                        <div data-aos="fade-up" class="col-12 col-md-6 p-0 pr-md-4 item">
+                            <h4><i class="mr-2 icon-badge"></i>Tradition</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                        </div>           
+                        <div data-aos="fade-up" class="col-12 col-md-6 p-0 item">
+                            <h4><i class="mr-2 icon-lock"></i>Security</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                        </div> 
+                    </div>
+                    <div class="row items"> 
+                        <div data-aos="fade-up" class="col-12 col-md-6 p-0 item">
+                            <h4><i class="mr-2 icon-note"></i>Certificate</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                        </div>  
+                        <div data-aos="fade-up" class="col-12 col-md-6 p-0 pr-md-4 item">
+                            <h4><i class="mr-2 icon-graduation"></i>Expertise</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+
+                    <!-- Action -->
+                    <div data-aos="fade-up" class="buttons">
+                        <div class="d-sm-inline-flex mb-5 mb-md-0">
+                            <a href="#contact" class="smooth-anchor mx-auto mt-4 btn primary-button">GET IN TOUCH</a>
+                            <a href="#" class="mx-auto ml-sm-4 mt-4 btn outline-button">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 p-0 image">
+                    <!-- <img src="assets/images/about-4.jpg" class="fit-image" alt="Fit Image"> -->
+                    <img src="assets/images/engine2.jpg" class="fit-image" alt="Fit Image">
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section-3 showcase blog-grid filter-section projects">
             <div class="overflow-holder">
                 <div class="container">
                     <div class="row text-center intro">
                         <div class="col-12">
-                            <span class="pre-title">Customer Testimonials</span>
-                            <h2>Trusted <span class="featured"><span>Feedback</span></span></h2>
-                            <p class="text-max-800">We work intensively in search of ideals that can add up in the lives of our customers. This is what moves us and we are grateful for the recognition.</p>
+                            <span class="pre-title">We do more for everyone</span>
+                            <h2 class="mb-0">Actions & <span class="featured"><span>Projects</span></span></h2>
                         </div>
                     </div>
-                    <div class="swiper-container mid-slider items" data-perview="3"> 
+                    <div class="row justify-content-center text-center">
+                        <div class="col-12">
+                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                <label class="btn active">
+                                    <input type="radio" value="all" checked class="btn-filter-item">
+                                    <span>All</span>
+                                </label>
+                                <label class="btn">
+                                    <input type="radio" value="institutional" class="btn-filter-item">
+                                    <span>Institutional</span>
+                                </label>
+                                <label class="btn">
+                                    <input type="radio" value="social" class="btn-filter-item">
+                                    <span>Social</span>
+                                </label>
+                                <label class="btn">
+                                    <input type="radio" value="events" class="btn-filter-item">
+                                    <span>Events</span>
+                                </label>
+                                <label class="btn">
+                                    <input type="radio" value="innovation" class="btn-filter-item">
+                                    <span>Innovation</span>
+                                </label>
+                                <label class="btn">
+                                    <input type="radio" value="environment" class="btn-filter-item">
+                                    <span>Environment</span>
+                                </label>
+                                <label class="btn">
+                                    <input type="radio" value="technology" class="btn-filter-item">
+                                    <span>Technology</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="row items filter-items">                       
+                        <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["innovation","social","technology"]'>
+                            <div class="row card p-0 text-center">
+                                <div class="image-over">
+                                    <!-- <img src="assets/images/project-1.jpg" alt="Lorem ipsum"> -->
+                                    <img src="assets/images/engine1.jpg" alt="Lorem ipsum">
+                                </div>
+                                <div class="card-caption col-12 p-0">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Academic professional program in social media</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>            
+                        <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["institutional","events","environment"]'>
+                            <div class="row card p-0 text-center">
+                                <div class="image-over">
+                                    <!-- <img src="assets/images/project-2.jpg" alt="Lorem ipsum"> -->
+                                    <img src="assets/images/engine2.jpg" alt="Lorem ipsum">
+                                </div>
+                                <div class="card-caption col-12 p-0">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>President's speech at the annual meeting</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>     
+                        <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["environment","institutional","social"]'>
+                            <div class="row card p-0 text-center">
+                                <div class="image-over">
+                                    <img src="assets/images/project-3.jpg" alt="Lorem ipsum">
+                                </div>
+                                <div class="card-caption col-12 p-0">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>International business trip in Shanghai</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["technology","events","innovation"]'>
+                            <div class="row card p-0 text-center">
+                                <div class="image-over">
+                                    <!-- <img src="assets/images/project-4.jpg" alt="Lorem ipsum"> -->
+                                    <img src="assets/images/engine3.jpg" alt="Lorem ipsum">
+                                </div>
+                                <div class="card-caption col-12 p-0">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Technology workshop with education theme</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["social","environment","events"]'>
+                            <div class="row card p-0 text-center">
+                                <div class="image-over">
+                                    <!-- <img src="assets/images/project-5.jpg" alt="Lorem ipsum"> -->
+                                    <img src="assets/images/engine2.jpg" alt="Lorem ipsum">
+                                </div>
+                                <div class="card-caption col-12 p-0">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Donation of clothes and food to the partner NGO</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["innovation","institutional","technology"]'>
+                            <div class="row card p-0 text-center">
+                                <div class="image-over">
+                                    <!-- <img src="assets/images/project-6.jpg" alt="Lorem ipsum"> -->
+                                    <img src="assets/images/engine1.jpg" alt="Lorem ipsum">
+                                </div>
+                                <div class="card-caption col-12 p-0">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Confraternization of the procurement team</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-1 filter-sizer"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fun Facts -->
+        <section id="funfacts" class="section-4 odd counter funfacts">
+            <div class="container">
+                <div class="row mb-md-5 text-center">
+                    <div class="col-12">
+                        <span class="pre-title">What are we doing</span>
+                        <h2><span class="featured"><span>Results</span></span> in Numbers</h2>
+                    </div>
+                </div>
+                <div data-aos-id="counter" data-aos="fade-up" data-aos-delay="200" class="row justify-content-center text-center items">
+                    <div class="col-12 col-md-6 col-lg-3 item">
+                        <div data-percent="128" class="radial">
+                            <span></span>
+                        </div>
+                        <h4>Certifications</h4>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 item">
+                        <div data-percent="230" class="radial">
+                            <span></span>
+                        </div>
+                        <h4>Employees</h4>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 item">
+                        <div data-percent="517" class="radial">
+                            <span></span>
+                        </div>
+                        <h4>Customers</h4>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 item">
+                        <div data-percent="94" class="radial">
+                            <span></span>
+                        </div>
+                        <h4>Countries Served</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partners -->
+        <section id="partners" class="section-5 odd partners">
+            <div class="overflow-holder">
+                <div class="container">
+                    <div class="swiper-container min-slider">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide slide-center item">
-                                <div class="row card">
-                                    <div class="col-12">
-                                        <img src="assets/images/logo-1.png" alt="Logo" class="logo">
-                                        <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <i class="quote-right fas fa-quote-right"></i>
-                                    </div>
-                                </div>
+                                <img src="assets/images/logo-1.png" class="fit-image" alt="Fit Image">
                             </div>
                             <div class="swiper-slide slide-center item">
-                                <div class="row card">
-                                    <div class="col-12">
-                                        <img src="assets/images/logo-2.png" alt="Logo" class="logo">
-                                        <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <i class="quote-right fas fa-quote-right"></i>
-                                    </div>
-                                </div>
+                                <img src="assets/images/logo-2.png" class="fit-image" alt="Fit Image">
                             </div>
                             <div class="swiper-slide slide-center item">
-                                <div class="row card">
-                                    <div class="col-12">
-                                        <img src="assets/images/logo-3.png" alt="Logo" class="logo">
-                                        <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <i class="quote-right fas fa-quote-right"></i>
-                                    </div>
-                                </div>
+                                <img src="assets/images/logo-3.png" class="fit-image" alt="Fit Image">
                             </div>
                             <div class="swiper-slide slide-center item">
-                                <div class="row card">
-                                    <div class="col-12">
-                                        <img src="assets/images/logo-4.png" alt="Logo" class="logo">
-                                        <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <i class="quote-right fas fa-quote-right"></i>
-                                    </div>
-                                </div>
+                                <img src="assets/images/logo-4.png" class="fit-image" alt="Fit Image">
                             </div>
                             <div class="swiper-slide slide-center item">
-                                <div class="row card">
-                                    <div class="col-12">
-                                        <img src="assets/images/logo-5.png" alt="Logo" class="logo">
-                                        <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <i class="quote-right fas fa-quote-right"></i>
-                                    </div>
-                                </div>
+                                <img src="assets/images/logo-5.png" class="fit-image" alt="Fit Image">
                             </div>
                             <div class="swiper-slide slide-center item">
-                                <div class="row card">
-                                    <div class="col-12">
-                                        <img src="assets/images/logo-1.png" alt="Logo" class="logo">
-                                        <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <i class="quote-right fas fa-quote-right"></i>
-                                    </div>
-                                </div>
+                                <img src="assets/images/logo-1.png" class="fit-image" alt="Fit Image">
                             </div>
                             <div class="swiper-slide slide-center item">
-                                <div class="row card">
-                                    <div class="col-12">
-                                        <img src="assets/images/logo-2.png" alt="Logo" class="logo">
-                                        <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <i class="quote-right fas fa-quote-right"></i>
-                                    </div>
-                                </div>
+                                <img src="assets/images/logo-2.png" class="fit-image" alt="Fit Image">
                             </div>
                             <div class="swiper-slide slide-center item">
-                                <div class="row card">
-                                    <div class="col-12">
-                                        <img src="assets/images/logo-3.png" alt="Logo" class="logo">
-                                        <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <i class="quote-right fas fa-quote-right"></i>
-                                    </div>
-                                </div>
+                                <img src="assets/images/logo-3.png" class="fit-image" alt="Fit Image">
                             </div>
                             <div class="swiper-slide slide-center item">
-                                <div class="row card">
-                                    <div class="col-12">
-                                        <img src="assets/images/logo-4.png" alt="Logo" class="logo">
-                                        <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <i class="quote-right fas fa-quote-right"></i>
-                                    </div>
-                                </div>
+                                <img src="assets/images/logo-4.png" class="fit-image" alt="Fit Image">
                             </div>
                             <div class="swiper-slide slide-center item">
-                                <div class="row card">
-                                    <div class="col-12">
-                                        <img src="assets/images/logo-5.png" alt="Logo" class="logo">
-                                        <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <i class="quote-right fas fa-quote-right"></i>
-                                    </div>
-                                </div>
+                                <img src="assets/images/logo-5.png" class="fit-image" alt="Fit Image">
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Video -->
-        <section id="video" class="section-3 odd highlights image-center featured">
-            <div class="container smaller">
-                <div class="row text-center intro">
-                    <div class="col-12">
-                        <span class="pre-title">Introduction Video</span>
-                        <h2>Advisory <span class="featured"><span>Performance</span></span></h2>
-                        <p class="text-max-800">Financial executives need to review their strategies, operating models and capabilities so that their areas can generate sound information for better decision making.</p>
-                    </div>
-                </div>
-                <div class="row text-center">
-                    <div class="col-12 gallery">
-                        <a href="https://vimeo.com/222990241" class="square-image d-flex justify-content-center align-items-center">
-                            <i class="icon bigger fas fa-play clone"></i>
-                            <i class="icon bigger fas fa-play"></i>
-                            <img src="assets/images/video-1.jpg" class="fit-image" alt="Introduction Video">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Skills -->
-        <section id="skills" class="section-4 highlights image-right counter skills featured">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-6 pr-md-5 align-self-center text-center text-md-left text items">
-                        <div data-aos="fade-up"  class="row intro">
-                            <div class="col-12 p-0">
-                                <span class="pre-title m-auto m-md-0">About the professional</span>
-                                <h2><span class="featured"><span>The</span></span> Consultant</h2>
-                                <p>Extensive consulting experience gained over many years of work in the professional and business qualification field.</p>
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" class="row flex align-items-center text-left item">
-                            <div class="col-5 col-sm-3 pl-0">
-                                <div data-percent="92" class="radial">
-                                    <span></span>
-                                </div>
-                            </div>         
-                            <div class="col-7 col-sm-9">
-                                <h4 class="mt-0">Leadership</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" class="row flex align-items-center text-left item">
-                            <div class="col-5 col-sm-3 pl-0">
-                                <div data-percent="100" class="radial">
-                                    <span></span>
-                                </div>
-                            </div>         
-                            <div class="col-7 col-sm-9">
-                                <h4 class="mt-0">Psychology</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" class="row flex align-items-center text-left item">
-                            <div class="col-5 col-sm-3 pl-0">
-                                <div data-percent="85" class="radial">
-                                    <span></span>
-                                </div>
-                            </div>         
-                            <div class="col-7 col-sm-9">
-                                <h4 class="mt-0">Flexibility</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 p-0 image">
-                        <img src="assets/images/about-2.jpg" class="fit-image" alt="Fit Image">
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Contact -->
-        <section id="contact" class="section-5 form contact">
+        <section id="contact" class="section-6 form contact">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-8 pr-md-5 align-self-center text">
@@ -482,9 +608,9 @@
                                             <i class="icon-arrow-down mr-3"></i>
                                             <select name="info" class="form-control field-info">
                                                 <option value="" selected disabled>More Info</option>
-                                                <option>Audit & Assurance</option>
-                                                <option>Financial Advisory</option>
-                                                <option>Analytics and M&A</option>
+                                                <option>Civil Engineering</option>
+                                                <option>Financial Engineering</option>
+                                                <option>Analytical Engineering</option>
                                                 <option>Middle Marketing</option>
                                                 <option>Legal Consulting</option>
                                                 <option>Regulatory Risk</option>
@@ -514,13 +640,13 @@
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
                                         <i class="fas fa-phone-alt mr-2"></i>
-                                        +1 (305) 1234-5678
+                                        +234 81 0189-9045
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
                                         <i class="fas fa-envelope mr-2"></i>
-                                        hello@example.com
+                                        abtcoolb7@gmail.com
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -552,9 +678,9 @@
                             <a class="navbar-brand" href="/">
                                 <span class="brand">
                                     <span class="featured">
-                                        <span class="first">NEX</span>
+                                        <span class="first">JI</span>
                                     </span>
-                                    <span class="last">GEN</span>
+                                    <span class="last">SUNN</span>
                                 </span>
                                 
                                 <!-- 
@@ -639,7 +765,7 @@
                              -->
                         </div>
                         <div class="col-12 col-md-6 p-3 text-center text-lg-right">
-                            <p>© 2020 NEXGEN is Proudly Powered by <a href="https://themeforest.net/user/codingsdev" target="_blank">Codings</a>.</p>
+                            <p>Â© 2020 NEXGEN is Proudly Powered by <a href="https://themeforest.net/user/codingsdev" target="_blank">Codings</a>.</p>
                         </div>
                     </div>
                 </div>
@@ -773,7 +899,7 @@
                         <i class="icon-close fas fa-arrow-right"></i>
                     </div>
                     <div class="modal-body p-0">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.123073808986!2d12.490042215441486!3d41.89021017922119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61b6532013ad%3A0x28f1c82e908503c4!2sColiseu!5e0!3m2!1spt-BR!2sbr!4v1594148229878!5m2!1spt-BR!2sbr" width="600" height="450" aria-hidden="false" tabindex="0"></iframe>
+                        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.123073808986!2d12.490042215441486!3d41.89021017922119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61b6532013ad%3A0x28f1c82e908503c4!2sColiseu!5e0!3m2!1spt-BR!2sbr!4v1594148229878!5m2!1spt-BR!2sbr" width="600" height="450" aria-hidden="false" tabindex="0"></iframe> -->
                     </div>
                 </div>
             </div>
@@ -830,6 +956,13 @@
         <script src="assets/js/vendor/cookie-notice.min.js"></script>
         <script src="assets/js/vendor/particles.min.js"></script>
         <script src="assets/js/main.js"></script>
+        
+        <!-- ==============================================
+        Particles
+        =============================================== -->
+        <script>
+            particles('squares', 'particles-1');
+        </script>
 
     </body>
 </html>
